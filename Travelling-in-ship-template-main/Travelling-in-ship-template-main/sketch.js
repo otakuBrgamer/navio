@@ -6,7 +6,7 @@ function preload(){
   seaImg = loadImage("sea.png");
   shipImg1=loadAnimation("sea.png")
 //Choose the correct option by uncommenting the right line to load the animation for ship.
-  loadAnimation(ship-1.png,ship-2.png);
+  loadAnimation("ship-1.png","ship-2.png");
 }
 
 function setup(){
@@ -15,7 +15,7 @@ function setup(){
 
   // Moving background
   sea=createSprite(400,200);
-  sea.addImage(sea.png);
+  sea.addImage(seaImg);
   sea.scale=0.3;
 
   
